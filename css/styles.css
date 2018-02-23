@@ -11,12 +11,18 @@
 }
 
 aside{
-  background-color:grey;
-  color:white;
+  background-color:lightblue;
+  color:black;
   height:100vh;
-  font-size:110%;
-  width:400px;
-  position:absolute;
-  
+  font-size:100%;
+  width:300px;
+text-align:center;
+
+}
+li{
+  text-align:center;
+  list-style-position: inside;
+  background-color: lightblue;
+  border-raduis:50%;
 }
 footer
