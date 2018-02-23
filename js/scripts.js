@@ -1,20 +1,20 @@
 //User-Interface Logic
 $(document).ready(function(){
-$("#choice").click(function(event){
+$("#choice").click(function(){
 var answer=parseInt($("#number").val());
-var resultf=divisible(answer);
-$("#output").text(resultf);
-event.preventDefault();
+var calculate=divisible(answer);
+console.log(answer);
+
 });
 });
-
-
 //business Logic
 
 var divisible=function(answer){
   for(i=1; i<=answer; i++){
-    if(i%15===0){
-      $("#output").append("<li>"+"pingpong"+"</li>");
-    }
+    if(i%3===0){
+      console.log("ping");
+    }else if (i%5===0){
+      console.log("pong");
+    } 
     }
   }
