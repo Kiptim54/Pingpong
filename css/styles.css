@@ -30,3 +30,9 @@ margin-left:2%;
  h3{
    text-align: center;
  }
+li{
+    text-align:center;
+    list-style-position: inside;
+    border-raduis:50%;
+    margin-right:3%;
+}
