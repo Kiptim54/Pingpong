@@ -3,5 +3,9 @@
   background-color:lightblue;
   text-align:center;
   font:cambria;
-
+  font-size:30%;
+}
+.form-group{
+  align-items: center;
+  text-align: center;
 }
