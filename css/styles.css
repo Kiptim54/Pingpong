@@ -9,3 +9,11 @@
   align-items: center;
   text-align: center;
 }
+
+aside{
+  background-color:grey;
+  color:white;
+  height:100vh;
+  font-size:110%;
+  width:400px;
+}
