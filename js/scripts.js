@@ -20,6 +20,8 @@ var divisible=function(answer){
     } else if(i%5===0){
       $("#output").append("<li>"+"pong"+"</li>");
     }else{
-    
+      console.log(i);
+      $("#output").append("<li>"+i+"</li>");
+    }
     }
   }
