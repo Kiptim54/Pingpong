@@ -1,31 +1,60 @@
+.container-fluid{
+  background-image: url("../image/large.png");
+  background-repeat:repeat;
+
+  padding:0px;
+  font-family: 'Rochester';
+  font-size:19px;
+}
+
+.display{
+  height: 100vh;
+}
 .jumbotron{
   color:white;
-  background-color:lightblue;
+  background-color:black;
   text-align:center;
-  font:cambria;
   font-size:30%;
+
 }
 .form-group{
   align-items: center;
   text-align: center;
+
 }
 
 aside{
   background-color:lightblue;
   color:black;
-  height:100vh;
+  height:300px;
   font-size:100%;
   width:300px;
-text-align:center;
-margin-left:2%;
+  text-align:center;
+ margin-left:4%;
+ border-radius:100%;
+ align-items: center;
+ padding:20%;
+ }
 
-}
+ .aside2{
+   background-color:red;
+   padding-top:35%;
+  padding-bottom:35%;
+
+ }
  #output li{
   text-align:center;
+  list-style-type:square;
   list-style-position: inside;
-  background-color: lightblue;
   border-raduis:50%;
   margin-right:3%;
+  background-image: url();
+  background-repeat: no-repeat;
+  background-size:cover;
+
+}
+#output{
+    border:3px red dotted;
 }
  h3{
    text-align: center;
@@ -35,4 +64,12 @@ li{
     list-style-position: inside;
     border-raduis:50%;
     margin-right:3%;
+
+}
+footer{
+  height:100px;
+  background-color: black;
+  color:white;
+  text-align: center;
+  padding:2%;
 }

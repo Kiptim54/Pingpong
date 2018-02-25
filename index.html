@@ -1,51 +1,71 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <title>Ping Pong</title>
-  </head>
-  <body>
-    <!--HEADER-->
-    <div class="row">
-      <div class="col-md-12">
-        <div class="jumbotron">
-        <h1> Ping Pong</h1>
-        </div>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Rochester" rel="stylesheet">
+  <title>Ping Pong</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+  <!--HEADER-->
+  <div class="row">
+    <div class="col-md-12">
+      <div class="jumbotron">
+        <h1> Ping Pong!</h1>
       </div>
     </div>
-    <!--FORM-->
-    <div class="row">
-      <div class="col-md-3">
-        <aside>
+  </div>
+  <!--FORM-->
+  <div class="row" class="display">
+    <div class="col-md-3">
+      <aside>
 
-          <p><strong>About Ping Pong</strong></p>
-          <p>created by: Brenda Kiptim</p>
-          <p>Github:<br><a href="https://github.com/Kiptim54/Pingpong/tree/master">https://github.com/Kiptim54/Pingpong/tree/master</a></p>
-          <p> Level 2 Test for: <br> Java</p>
-        </aside>
-      </div>
+        <h4><strong>About Ping Pong</strong></h4>
+        <p>created by: Brenda Kiptim</p>
+        <p>Github:<br><a href="https://github.com/Kiptim54/Pingpong/tree/master">Github page</a></p>
+        <p> Level 2 Test for: <br> Java</p>
+      </aside>
+    </div>
 
-      <div class="col-md-9">
-        <form class="form-group">
+    <div class="col-md-6">
+      <h3> RULES</h3>
+      <ol>
+        <li>Numbers divisible by 3 are replaced with "ping"</li>
+        <li>Numbers divisible by 5 are replaced with "pong"</li>
+        <li>Numbers divisible by 15 are replaced with "pingpong"</li>
+      </ol>
+      <form class="form-group">
         <label>Please enter a number: </label>
-        <input type"text" id="number">
+        <input type "text" id="number">
         <input type="button" value="Enter" id="choice">
-        </form>
-        <h3> RULES</h3>
-        <ol>
-          <li>Numbers divisible by 3 are replaced with "ping"</li>
-<li>Numbers divisible by 5 are replaced with "pong"</li>
-<li>Numbers divisible by 15 are replaced with "pingpong"</li>
-</ol>
-          <div>
-            <ul id="output">
+      </form>
+      <div>
+      <ul id="output">
 
-           </ul>
-        </div>
+      </ul>
       </div>
-    <script src="js/jquery-3.3.1.js"></script>
-    <script src="js/scripts.js"></script>
-  </body>
+    </div>
+    <div class="col-md-3">
+      <aside class="aside2">
+
+        <h4><strong>Press enter to start</strong></h4>
+      </aside>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <footer>
+        <p> Kiptim &copy; PingPong game</p>
+      </footer>
+    </div>
+  </div>
+  </div>
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+
 </html>
