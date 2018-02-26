@@ -31,7 +31,7 @@ To view the site click:https://kiptim54.github.io/Pingpong/
 
 ## link to live site on GitHub Pages
 
-[Ping-Pong] https://kiptim54.github.com/Pingpong/
+[PingPong](https://kiptim54.github.io/Pingpong/)
 
 ## Technologies Used
 
