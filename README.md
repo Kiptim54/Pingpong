@@ -8,13 +8,30 @@
 
 This is a ping pong game.
 
+## BDD specs:
+1.Ensure that users input from the form is being collected:
+  input:50
+  Output:50 on console.Log
+2.Ensure that counting from one to user input is happening
+  input:10
+  output:1-10
+3.Number divisible by three return ping
+  input: 3
+  output: "ping"
+4.Numbers divisible by 5 return Pong
+  input:5
+  output:pong
+5.Numbers divisible by 15 return PingPong
+  input:15
+  output:PingPong
+
 ## Project setup instructions
 
-To view the page click:<>
+To view the page click:https://kiptim54.github.io/Pingpong/
 
 ## link to live site on GitHub Pages
 
-<https://kiptim54.github.io/Pingpong/>
+https://kiptim54.github.io/Pingpong/
 
 ## Technologies Used
 
