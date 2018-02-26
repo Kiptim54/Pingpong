@@ -1,10 +1,11 @@
 //User-Interface Logic
 $(document).ready(function(){
 $("#choice").click(function(event){
+  event.preventDefault();
 var answer=parseInt($("#number").val());
 var resultf=divisible(answer);
 $("#output").text(resultf);
-event.preventDefault();
+
 });
 });
 
